@@ -1,7 +1,12 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
-#gem "jekyll", "~>3.2"
-gem "jekyll-archives", "~>2.1"
-gem "jekyll-sitemap", "~>0.11"
-gem "jekyll-paginate", "~>1.1"
+gem "autoprefixer-rails"
+gem "html-proofer"
+gem "jekyll"
+gem "jekyll-assets"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jemoji"
+gem "mini_magick"
+gem "sass"
+gem "uglifier"
