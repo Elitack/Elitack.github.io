@@ -1,66 +1,36 @@
-# Mandatory settings
+markdown:         kramdown
+kramdown:
+    smart_quotes:   ["apos", "apos", "quot", "quot"]
+    input:          GFM
+highlighter:      rouge
+gems:             [jekyll-paginate]
+paginate:         5
+permalink:        /:year/:month/:day/:title
 
-name: Chalk
-paginate: 25
-paginate_path: "/posts/page/:num/"
-url: http://elitack.github.io.
-blog_theme: light # Or use dark
+title:            Arlen's Zone
+url:              https://arlenluo.github.io.
+feed:             /feed.xml
+BASE_PATH:
+author:
+    name:         ArlenLuo
+    email:        sjtuluo@gmail.com
+description:      "大晶晶的博客"
 
-# Optional settings
+about: 			  "I am ArlenLuo, a neophyte in coding. I major in Computer Science in SJTU, and now I'm a third year exchange student in NTU. Hope we can make friends with each other!"
+follow:
+    github:       https://github.com/arlenluo
+    ins:          https://www.instagram.com/arlenluo915/
+    facebook:     https://www.facebook.com/luo.jing.773
+    mail:         mailto:sjtuluo@gmail.com
+    linkedin:     https://www.linkedin.com/in/arlen-luo-47b0bb127
+    google:       https://plus.google.com/105274126253221874551
+    twitter:      https://twitter.com/Arlen_Luo
 
-discus_identifier: # Add your Disqus identifier
-ga_analytics: # Add your GA Tracking Id
-rss_enabled: true # Change to false if not
-about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
-social:
-  dribbble: # Add your Dribbble handle
-  facebook: # Add your Facebook handle
-  flickr: # Add your Flickr handle
-  github: # Add your GitHub handle
-  linkedin: # Add your LinkedIn handle
-  twitter: # Add your Twitter handle
-  email: # Add your Email address
-  bitcoin: # Add your Bitcoin link or address
+style: 			  /css/style.css
+blogName: 		  Arlen's Zone
+blogDesc: 		  如果你是船，漂泊就是你的命运，可别靠岸。——北岛
 
-# Important settings (change at own risk)
-
-assets:
-  compress:
-    css: true
-    js: true
-  features:
-    automatic_img_size: false
-  sources:
-    - _assets/bower
-    - _assets/fonts
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _vendor/
-collections:
-  my_tags:
-    output: true
-    permalink: /tag/:slug/
-defaults:
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: articles_by_tag
-exclude:
-  - .bowerrc
-  - .travis.yml
-  - bin/*
-  - bower.json
-  - circle.yml
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - vendor/
-gems:
-  - jekyll-assets
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
-permalink: posts/:slug
+comments :
+  provider : duoshuo
+  duoshuo :
+short_name : arlenluo
