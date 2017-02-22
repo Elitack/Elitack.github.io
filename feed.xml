@@ -1,20 +1,27 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Chalk</title>
+    <description></description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>开篇Blog</title>
+        <description>第一次开blog，撒花。其实一直也是把blog当做一个程序员的基本素养。但是，总是因为各种各样的事情没时间去完成。终于趁着假期弄好了，当初选择程序员大概就是因为这样，能够看到自己亲手做出的东西成型，其中的成就感相信懂的人都会懂。</description>
+        <pubDate>Fri, 27 Jan 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/posts/blogcreation</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/blogcreation</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>大三上半学期回顾</title>
+        <description>大概是终于有时间，可以稍微停下来记录下东西了。感觉这个学期经历的事情太多了不写来下简直对不起这么苦逼的熬过来的生活。
+大三的上学期是我上大学以来大概内容最丰富的一个学期，想要说的实在太多太多。但一直没有时间来记录。一方面想搭个自己的blog，很早之前凌霄大神就给我推荐过说github挺好的，但是一直没有时间折腾。前一阵子不少同学跟风开了blog,无奈总是被各种事情牵制得头昏脑涨没时间弄。总算总算，现在终于有时间了。</description>
+        <pubDate>Fri, 27 Jan 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/posts/recall-ds</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/recall-ds</guid>
+      </item>
+    
   </channel>
 </rss>
