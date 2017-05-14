@@ -3,31 +3,31 @@
   <channel>
     <title>Zhige Li</title>
     <description></description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>elitack.github.io</link>
+    <atom:link href="elitack.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Personal Information</title>
         <description>Here is some basic information about myself including my educational experience, my interest, my contact information and my skills.</description>
         <pubDate>Sun, 14 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/posts/personal-information</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/personal-information</guid>
+        <link>elitack.github.io/posts/personal-information</link>
+        <guid isPermaLink="true">elitack.github.io/posts/personal-information</guid>
       </item>
     
       <item>
         <title>Professional Experience</title>
         <description>This is a post which shows the details of my professional experience including research and work internship. </description>
         <pubDate>Sat, 13 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/posts/research-experience</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/research-experience</guid>
+        <link>elitack.github.io/posts/research-experience</link>
+        <guid isPermaLink="true">elitack.github.io/posts/research-experience</guid>
       </item>
     
       <item>
         <title>Course Project</title>
         <description>This is a post which shows some details of the course projects. For more information please visit the corresponding website page.</description>
         <pubDate>Fri, 12 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/posts/course-project</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/course-project</guid>
+        <link>elitack.github.io/posts/course-project</link>
+        <guid isPermaLink="true">elitack.github.io/posts/course-project</guid>
       </item>
     
   </channel>
