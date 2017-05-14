@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Elitack's Homepage</title>
+    <title>Zhige Li</title>
     <description></description>
-    <link>http://elitack.github.io</link>
-    <atom:link href="http://elitack.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>但行己事</title>
-        <description>一个不大不小的新闻，感谢所有人的理解与支持</description>
-        <pubDate>Tue, 28 Feb 2017 00:00:00 +0800</pubDate>
-        <link>http://elitack.github.io/posts/gapyear</link>
-        <guid isPermaLink="true">http://elitack.github.io/posts/gapyear</guid>
-      </item>
-    
-      <item>
-        <title>开篇Blog</title>
-        <description>感觉大学需要记录的有意义的东西挺多的，所以开个blog，做个好好码代码好好升级的程序员。</description>
-        <pubDate>Fri, 27 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://elitack.github.io/posts/blogcreation</link>
-        <guid isPermaLink="true">http://elitack.github.io/posts/blogcreation</guid>
-      </item>
-    
-      <item>
-        <title>大三上半学期回顾</title>
-        <description>忙忙碌碌的大三上学期，有累到绝望也有笑到胃痛</description>
-        <pubDate>Fri, 27 Jan 2017 00:00:00 +0800</pubDate>
-        <link>http://elitack.github.io/posts/recall-ds</link>
-        <guid isPermaLink="true">http://elitack.github.io/posts/recall-ds</guid>
+        <title>Personal Information</title>
+        <description>Here is some basic information about myself including my educational experience, my interest, my contact information and my skills.</description>
+        <pubDate>Sun, 14 May 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/posts/personal-information</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/personal-information</guid>
       </item>
     
   </channel>
