@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
     <title>Zhige Li</title>
     <description></description>
@@ -9,23 +9,31 @@
       <item>
         <title>Personal Information</title>
         <description>Here is some basic information about myself including my educational experience, my interest, my contact information and my skills.</description>
-        <pubDate>Sun, 14 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/posts/personal-information</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/personal-information</guid>
+        <pubDate>Fri, 12 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/posts/intro</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/intro</guid>
       </item>
     
       <item>
         <title>Professional Experience</title>
-        <description>This is a post which shows the details of my professional experience including research and work internship. </description>
-        <pubDate>Sat, 13 May 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/posts/research-experience</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/research-experience</guid>
+        <description>This is a post which shows the details of my professional experience including research and work internship.</description>
+        <pubDate>Wed, 20 Dec 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/posts/prof-experience</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/prof-experience</guid>
+      </item>
+    
+      <item>
+        <title>Publication</title>
+        <description>This is a post that shows the publications and papers that under evaluations.</description>
+        <pubDate>Thu, 11 May 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/publication</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/publication</guid>
       </item>
     
       <item>
         <title>Course Project</title>
-        <description>This is a post which shows some details of the course projects. For more information please visit the corresponding website page.</description>
-        <pubDate>Fri, 12 May 2017 00:00:00 +0800</pubDate>
+        <description>This is a post which shows some details of the course projects. For more information please visit the corresponding website page..</description>
+        <pubDate>Wed, 22 Feb 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/posts/course-project</link>
         <guid isPermaLink="true">http://localhost:4000/posts/course-project</guid>
       </item>
